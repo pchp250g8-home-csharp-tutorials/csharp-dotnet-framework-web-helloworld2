@@ -10,6 +10,12 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <h1>Hello World!</h1>
+            <p>ASP.Net Web Page<br />
+                Today is <%=DateTime.Now %><br />
+            </p>
+            <a href="Index.html">Html Web Page</a><br />
+            <a href="HelloWorld.ashx">ASP.Net Web Handler</a><br />
         </div>
     </form>
 </body>
