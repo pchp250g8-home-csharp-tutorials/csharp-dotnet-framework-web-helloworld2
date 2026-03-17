@@ -6,9 +6,9 @@ The static (client) web page with the file name "index.html" consists of the fol
   2. Page encoding with the value "utf-8" (applied by default during creation).
   3. Data transfer type "text/html" (will contain elements of the HTML markup language and plain text).
   4. The first level page body heading (there are 6 of them in total) with the value "Hello, World".
-  5. A hyperlink to a server web page with the file name "HelloWorld.aspx" and the value (text) "Razor Page".
+  5. A hyperlink to a server web page with the file name "HelloWorld.aspx" and the value (text) "".
   6. A hyperlink to a web request handler (web controller) with the file name "HelloWorld.ashx".
-     with the value (text) "ASP.Net Controller" (the handler code is contained in the program file "Program.cs").
+     with the value (text) "ASP.Net Controller".
 All hyperlinks are displayed on a new line on the page. 
 The server web page with the file name "Hello.cshtml" consists of the following parts:
   1. Page title with the value "Hello Page"
