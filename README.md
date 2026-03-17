@@ -5,42 +5,34 @@ The static (client) web page with the file name "index.html" consists of the fol
   1. Page title with the value "Start Page".
   2. Page encoding with the value "utf-8" (applied by default during creation).
   3. Data transfer type "text/html" (will contain elements of the HTML markup language and plain text).
-  4. The first level page body heading (there are 6 of them in total) with the value "Hello, World".
-  5. A hyperlink to a server web page with the file name "HelloWorld.aspx" and the value (text) "".
+  4. The first level page body heading (there are 6 of them in total) with the value "Hello World".
+  5. A hyperlink to a server web page with the file name "HelloWorld.aspx" and the value (text) "ASP.Net Page".
   6. A hyperlink to a web request handler (web controller) with the file name "HelloWorld.ashx".
-     with the value (text) "ASP.Net Controller".
+     with the value (text) "ASP.Net Web Handler".
 All hyperlinks are displayed on a new line on the page. 
-The server web page with the file name "Hello.cshtml" consists of the following parts:
+The server web page with the file name "HelloWorld.aspx" consists of the following parts:
   1. Page title with the value "Hello Page"
   2. Page encoding with the value "utf-8" (applied by default during creation).
   3. Data transfer type "text/html" (will contain elements of the HTML markup language and plain text).
-  4. The title of the first level page body (there are 6 of them in total) with the value "Welcome".
-  5. Code fragments in C#. Posted in paragraph #1.
-  The web browser page displays the current date, operating system version, and the version of the DoNet Core runtime environment.
-  6. A hyperlink to a static web page with the file name 'index.html' and the value (text) 'Simple Html Page'.
-  Placed in paragraph №2.
-  7. A hyperlink to the web request handler (web controller) named "HelloWorld". Located in paragraph #2.
+  4. The title of the first level page body (there are 6 of them in total) with the value "Hello World!".
+  5. A phrase "Hello World!", code fragments in C#. Posted in paragraph №1.
+     The web browser page displays the current date, operating system version, and the version of the DoNet Core runtime environment.
+  6. A hyperlink to a static web page with the file name 'index.html' and the value (text) "Simple Html Page".
+     Placed in paragraph №2.
+  7. A hyperlink to the web request handler (web controller) named "HelloWorld.ashx". Located in paragraph №2.
      Each hyperlink is placed on a new line.
 All elements (text) are centered on the server web page. 
-The program with the file name "Program.cs", which is converted into an executable file (assembly) in the DotNet Core environment using the C# compiler, 
+The  web hander with the file name "HelloWorld.ashx",
+which is converted into an dynamic loading library file (assembly) in the DotNet FrameWork environment using the C# compiler, 
 does the following:
-  1. Creates a working environment for the Kerstel web server.
-  2. Configures settings for accepting and processing requests to display static and dynamic web pages.
-  3. Starts the web server and processes requests to display static and dynamic web content pages.
-     The pages themselves can be generated either on the fly (the "servlet" code is executed):
-     web request handler (GET, POST, HEAD, PUT),
-     files in the C# programming language that will be converted into assemblies for the DotNet Core runtime environment)
-     or read from files with .html extensions (client-side static web page) and/or
-     .cshtml (a server-side web page that may contain code in the C# programming language in addition to HTML markup language).
-  4. Executes the Web Request Handler Code Named "HelloWorld".
-     4.1. Sets the data transfer type to "text/html." The browser will display a web page with text and HTML markup.
-     4.2. Displays the message "Hello, World" on the web page.
-     4.3. Displays information about the operating system on the web page.
-     4.4. Displays information about the DotNet Core runtime environment on the web page.
-     4.5. Displays a text message on the web page with the current date at the time the web application was launched.
-          All text messages are displayed on a new line.
-     4.6. Displays a hyperlink to a static web page with the file name "index.html" and the value (text) "Simple Html Page" on the web page.
-     4.7. Displays a hyperlink to a server web page with the file name "Hello.cshtml" and the value (text) "Razor Page" on the web page.
+  1. Sets the data transfer type to "text/html." The browser will display a web page with text and HTML markup.
+  2. Displays the message "Hello, World" on the web page.
+  3. Displays information about the operating system on the web page.
+  4. Displays information about the DotNet Core runtime environment on the web page.
+  5. Displays a text message on the web page with the current date at the time the web application was launched.
+     All text messages are displayed on a new line.
+  6. Displays a hyperlink to a static web page with the file name "index.html" and the value (text) "Simple Html Page" on the web page.
+  7. Displays a hyperlink to a server web page with the file name "Hello.cshtml" and the value (text) "ASP.Net Page" on the web page.
 
 HelloWorld2. Занятия по C# ASP.Net Веб Приложение. Простая HTML Страница. Простая ASP.Net Страница. Протой ASP.Net Контроллер (обработчик) http/https запроcов.
 Веб приложение состоит из стартовой страницы с именем файла "index.html", серверной веб страницы с именем файла "Hello.cshtml" 
