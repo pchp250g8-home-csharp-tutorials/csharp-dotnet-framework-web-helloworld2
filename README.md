@@ -1,14 +1,14 @@
 HelloWorld2. C# tutorials. ASP.NET Web Application. Simple HTML Page. Simple ASP.Net Page. Simple ASP.Net Handler.
-The web application consists of a start page with the file name "index.html" and a server web page with the file name "Hello.cshtml"
-and a program file named "Program.cs". 
+The web application consists of a start page with the file name "index.html" and a server web page with the file name "HelloWorld.aspx"
+and a web controller file named "HelloWorld.ashx". 
 The static (client) web page with the file name "index.html" consists of the following parts (elements):
   1. Page title with the value "Start Page".
   2. Page encoding with the value "utf-8" (applied by default during creation).
   3. Data transfer type "text/html" (will contain elements of the HTML markup language and plain text).
   4. The first level page body heading (there are 6 of them in total) with the value "Hello, World".
-  5. A hyperlink to a server web page with the file name "Hello.cshtml" and the value (text) "Razor Page".
-  6. A hyperlink to a web request handler (web controller) named "HelloWorld".
-  with the value (text) "ASP.Net Core Controller" (the handler code is contained in the program file "Program.cs").
+  5. A hyperlink to a server web page with the file name "HelloWorld.aspx" and the value (text) "Razor Page".
+  6. A hyperlink to a web request handler (web controller) with the file name "HelloWorld.ashx".
+     with the value (text) "ASP.Net Controller" (the handler code is contained in the program file "Program.cs").
 All hyperlinks are displayed on a new line on the page. 
 The server web page with the file name "Hello.cshtml" consists of the following parts:
   1. Page title with the value "Hello Page"
